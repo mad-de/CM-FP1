@@ -30,7 +30,7 @@ local manifest belongs into "YOURBUILDFOLDER/.repo/local_manifests"
 #Errors:
 - If build fails due to "make: *** No rule to make target 'vendor/fp/FP1/proprietary/lib/hw/audio.primary.mt6589.so', needed by '/home/martin/android/system/out/target/product/FP1/system/lib/hw/audio.primary.mt6589.so'.  Stop."
 Manually pull lib/hw/audio.primary.mt6589.so from your device and put into folder in vendor/fp/FP1/proprietary/...
-_ find: `bootable/recovery/res-540': No such file or directory
+- find: `bootable/recovery/res-540': No such file or directory
 No private recovery resources for TARGET_DEVICE FP1
 build/core/tasks/kernel.mk:91: **********************************************************
 build/core/tasks/kernel.mk:92: * Kernel source found, but no configuration was defined  *
@@ -42,6 +42,8 @@ Install: /home/martin/android/system/out/host/linux-x86/bin/mkbootfs
 Install: /home/martin/android/system/out/host/linux-x86/bin/checkpolicy
 Install: /home/martin/android/system/out/host/linux-x86/bin/checkfc
 Install: /home/martin/android/system/out/host/linux-x86/bin/clang-tblgen
+
+Solution: TARGET_KERNEL_CONFIG := ../../../kernel/fp/FP1/mediatek/config/ahong89_wet_jb2/configs/ in device/fp/FP1/BoardConfig.mk
 Install: /home/martin/android/system/out/host/linux-x86/bin/tblgen
 Install: /home/martin/android/system/out/target/product/FP1/system/usr/share/zoneinfo/tzdata
 Install: /home/martin/android/system/out/target/product/FP1/root/init.rc
