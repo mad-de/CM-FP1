@@ -4,16 +4,14 @@ local manifest belongs into "YOURBUILDFOLDER/.repo/local_manifests"
 #Build instructions 
 (see http://wiki.cyanogenmod.org/w/Doc:_porting_intro)
 
-// Follow http://wiki.cyanogenmod.org/w/Build_for_one to get all prerequisites until: 
-// "Initialize the CyanogenMod source repository"
+// Follow http://wiki.cyanogenmod.org/w/Build_for_one to get all prerequisites until: "Initialize the CyanogenMod source repository"
 
 // Download Cyanogenmod 11.0 into working directory (take a double coffee)
 - cd ~/android/system/
 - repo init -u https://github.com/CyanogenMod/android.git -b cm-11.0
 - repo sync
 
-// Get FP1 specific Android Kernel and Android Device (take a coffee)
-// Copy local_manifest.xml into .repo/local_manifests
+// Get FP1 specific Android Kernel and Android Device (take a coffee): Copy local_manifest.xml into .repo/local_manifests and then
 - repo sync
 
 // Check if you have succesfully downloaded folders kernel/fp/ and device/fp
