@@ -1,3 +1,6 @@
+#WIP NOT WORKING YET. SEE: http://forum.xda-developers.com/showpost.php?p=62778371&postcount=25
+
+
 local manifest for https://github.com/chrmhoffmann/android_kernel_fp_FP1 and https://github.com/chrmhoffmann/android_device_fp_FP1
 local manifest belongs into "YOURBUILDFOLDER/.repo/local_manifests"
 
