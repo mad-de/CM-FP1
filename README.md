@@ -23,8 +23,8 @@ local manifest belongs into "YOURBUILDFOLDER/.repo/local_manifests"
 // Check if there is a folder vendor/fp/FP1 and if it's full according to list in extract-files.sh
 
 //Start building (take a double coffee)
-- . build/envsetup.sh
 - croot
+- . build/envsetup.sh
 - brunch FP1
 
 #Errors:
