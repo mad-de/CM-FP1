@@ -15,11 +15,13 @@ local manifest belongs into "YOURBUILDFOLDER/.repo/local_manifests"
 // Get FP1 specific Android Kernel and Android Device (take a coffee)
 // Copy local_manifest.xml into .repo/local_manifests
 - repo sync
+
 // Check if you have succesfully downloaded folders kernel/fp/ and device/fp
 
 // Get proprietary builds (ADB connect your device)
 - cd fp/FP1
 - ./extract-files.sh
+
 // Check if there is a folder vendor/fp/FP1 and if it's full according to list in extract-files.sh
 
 //Start building (take a double coffee)
