@@ -28,7 +28,6 @@ local manifest belongs into "YOURBUILDFOLDER/.repo/local_manifests"
 - croot
 - brunch FP1
 
-/* Errors: */
-
-// If build fails due to "make: *** No rule to make target 'vendor/fp/FP1/proprietary/lib/hw/audio.primary.mt6589.so', needed by '/home/martin/android/system/out/target/product/FP1/system/lib/hw/audio.primary.mt6589.so'.  Stop."
-// Manually pull lib/hw/audio.primary.mt6589.so from your device and put into folder in vendor/fp/FP1/proprietary/...
+#Errors:
+If build fails due to "make: *** No rule to make target 'vendor/fp/FP1/proprietary/lib/hw/audio.primary.mt6589.so', needed by '/home/martin/android/system/out/target/product/FP1/system/lib/hw/audio.primary.mt6589.so'.  Stop."
+Manually pull lib/hw/audio.primary.mt6589.so from your device and put into folder in vendor/fp/FP1/proprietary/...
