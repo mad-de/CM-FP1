@@ -56,3 +56,7 @@ acp: missing destination file
 build/core/tasks/kernel.mk:212: recipe for target '/home/martin/android/system/out/target/product/FP1/kernel' failed
 make: *** [/home/martin/android/system/out/target/product/FP1/kernel] Error 2
 make: *** Waiting for unfinished jobs....
+
+# Build with precompiled kernel
+Sorry unsuccesful at building kernel right now... Deleting from local_manifest soon...
+cherrypick: https://gerrit.omnirom.org/#/c/4834/
