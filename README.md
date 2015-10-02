@@ -1,8 +1,11 @@
 #WIP NOT WORKING YET. SEE: http://forum.xda-developers.com/showpost.php?p=62778371&postcount=25
 
-
 local manifest for https://github.com/chrmhoffmann/android_kernel_fp_FP1 and https://github.com/chrmhoffmann/android_device_fp_FP1
 local manifest belongs into "YOURBUILDFOLDER/.repo/local_manifests"
+
+# Build with precompiled kernel
+I'm unsuccesful at building kernel right now, so I'm switching to the prekompiled kernel, which is in the _android_ files. 
+Last thing I tried was cherrypicking these: https://gerrit.omnirom.org/#/c/4834/ where Building failed as well.
 
 #Build instructions 
 (see http://wiki.cyanogenmod.org/w/Doc:_porting_intro)
@@ -58,7 +61,3 @@ acp: missing destination file
 build/core/tasks/kernel.mk:212: recipe for target '/home/martin/android/system/out/target/product/FP1/kernel' failed
 make: *** [/home/martin/android/system/out/target/product/FP1/kernel] Error 2
 make: *** Waiting for unfinished jobs....
-
-# Build with precompiled kernel
-Sorry unsuccesful at building kernel right now...
-You could try cherrypicking: https://gerrit.omnirom.org/#/c/4834/
