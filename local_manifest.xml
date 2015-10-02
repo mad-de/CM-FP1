@@ -2,7 +2,6 @@
 <manifest>
 <remote  name="FP1" fetch="https://github.com/chrmhoffmann" /> 
 <project path="device/fp/FP1" name="android_device_fp_FP1" remote="FP1" revision="cm-11.0" />
-<project path="kernel/fp/FP1" name="android_kernel_fp_FP1" remote="FP1" revision="cm-11.0" />
 </manifest>
 
 
