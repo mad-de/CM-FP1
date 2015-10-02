@@ -33,6 +33,8 @@ local manifest belongs into "YOURBUILDFOLDER/.repo/local_manifests"
 #Errors:
 - If build fails due to "make: *** No rule to make target 'vendor/fp/FP1/proprietary/lib/hw/audio.primary.mt6589.so', needed by '/home/martin/android/system/out/target/product/FP1/system/lib/hw/audio.primary.mt6589.so'.  Stop."
 Manually pull lib/hw/audio.primary.mt6589.so from your device and put into folder in vendor/fp/FP1/proprietary/...
+
+
 - find: `bootable/recovery/res-540': No such file or directory
 No private recovery resources for TARGET_DEVICE FP1
 build/core/tasks/kernel.mk:91: **********************************************************
@@ -58,5 +60,5 @@ make: *** [/home/martin/android/system/out/target/product/FP1/kernel] Error 2
 make: *** Waiting for unfinished jobs....
 
 # Build with precompiled kernel
-Sorry unsuccesful at building kernel right now... Deleting from local_manifest soon...
-cherrypick: https://gerrit.omnirom.org/#/c/4834/
+Sorry unsuccesful at building kernel right now...
+You could try cherrypicking: https://gerrit.omnirom.org/#/c/4834/
