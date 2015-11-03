@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="FP1" fetch="https://github.com/chrmhoffmann" /> 
+<remote  name="FP1" fetch="https://github.com/mad-de" /> 
 <project path="device/fp/FP1" name="android_device_fp_FP1" remote="FP1" revision="cm-11.0" />
 </manifest>
 
